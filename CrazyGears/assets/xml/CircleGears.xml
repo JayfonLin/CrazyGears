@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- created with http://www.physicseditor.de -->
+<bodydef version="1.0">
+    <bodies numBodies="6">
+
+        <body name="style3_size150" dynamic="true" numFixtures="2">
+
+            <fixture
+                density="2"
+                friction="1"
+                restitution="0"
+                filter_categoryBits="1"
+                filter_groupIndex="0"
+                filter_maskBits="65535"
+                isSensor="true"
+                type="CIRCLE"
+                numPolygons=""
+                >
+
+                <circle r="30.017" x="-0.029" y="-1.416"/>
+
+            </fixture>
+
+            <fixture
+                density="2"
+                friction="1"
+                restitution="0"
+                filter_categoryBits="1"
+                filter_groupIndex="0"
+                filter_maskBits="65535"
+                isSensor="false"
+                type="CIRCLE"
+                numPolygons=""
+                >
+
+                <circle r="71.000" x="-0.029" y="-0.260"/>
+
+            </fixture>
+
+        </body>
+
+        <body name="starter" dynamic="true" numFixtures="1">
+
+            <fixture
+                density="2"
+                friction="1"
+                restitution="0"
+                filter_categoryBits="1"
+                filter_groupIndex="0"
+                filter_maskBits="65535"
+                isSensor="false"
+                type="CIRCLE"
+                numPolygons=""
+                >
+
+                <circle r="59.000" x="-0.301" y="-0.566"/>
+
+            </fixture>
+
+        </body>
+
+        <body name="generator" dynamic="true" numFixtures="1">
+
+            <fixture
+                density="2"
+                friction="1"
+                restitution="0"
+                filter_categoryBits="1"
+                filter_groupIndex="0"
+                filter_maskBits="65535"
+                isSensor="false"
+                type="CIRCLE"
+                numPolygons=""
+                >
+
+                <circle r="29.000" x="-0.671" y="-0.197"/>
+
+            </fixture>
+
+        </body>
+
+        <body name="style1_size50" dynamic="true" numFixtures="2">
+
+            <fixture
+                density="2"
+                friction="1"
+                restitution="0"
+                filter_categoryBits="1"
+                filter_groupIndex="0"
+                filter_maskBits="65535"
+                isSensor="false"
+                type="CIRCLE"
+                numPolygons=""
+                >
+
+                <circle r="28.000" x="-0.479" y="-0.269"/>
+
+            </fixture>
+
+            <fixture
+                density="2"
+                friction="0"
+                restitution="0"
+                filter_categoryBits="1"
+                filter_groupIndex="0"
+                filter_maskBits="65535"
+                isSensor="true"
+                type="CIRCLE"
+                numPolygons=""
+                >
+
+                <circle r="13.000" x="-0.429" y="-0.912"/>
+
+            </fixture>
+
+        </body>
+
+        <body name="style4_size200" dynamic="true" numFixtures="2">
+
+            <fixture
+                density="2"
+                friction="1"
+                restitution="0"
+                filter_categoryBits="1"
+                filter_groupIndex="0"
+                filter_maskBits="65535"
+                isSensor="false"
+                type="CIRCLE"
+                numPolygons=""
+                >
+
+                <circle r="94.005" x="0.256" y="-0.744"/>
+
+            </fixture>
+
+            <fixture
+                density="2"
+                friction="0"
+                restitution="0"
+                filter_categoryBits="1"
+                filter_groupIndex="0"
+                filter_maskBits="65535"
+                isSensor="true"
+                type="CIRCLE"
+                numPolygons=""
+                >
+
+                <circle r="45.011" x="-0.769" y="0.282"/>
+
+            </fixture>
+
+        </body>
+
+        <body name="style2_size100" dynamic="true" numFixtures="2">
+
+            <fixture
+                density="2"
+                friction="1"
+                restitution="0"
+                filter_categoryBits="1"
+                filter_groupIndex="0"
+                filter_maskBits="65535"
+                isSensor="false"
+                type="CIRCLE"
+                numPolygons=""
+                >
+
+                <circle r="45.000" x="1.111" y="-1.686"/>
+
+            </fixture>
+
+            <fixture
+                density="2"
+                friction="0"
+                restitution="0"
+                filter_categoryBits="1"
+                filter_groupIndex="0"
+                filter_maskBits="65535"
+                isSensor="true"
+                type="CIRCLE"
+                numPolygons=""
+                >
+
+                <circle r="19.105" x="1.111" y="-1.111"/>
+
+            </fixture>
+
+        </body>
+
+    </bodies>
+    <metadata>
+        <format>1</format>
+        <ptm_ratio></ptm_ratio>
+    </metadata>
+</bodydef>
